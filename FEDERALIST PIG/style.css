@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gold;
+}
+/* header{
+    position: fixed;
+    margin-bottom: -500%;
+} */
+header h1{
+    padding-left: 38%;
+    font-size: 56px;
+   
+}
+header ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 32%;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    float:left;
+    padding-right: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+li a:hover{
+    background-color: black;
+    color: gold;
+    padding-left: 12px;
+}
+select{
+    background-color: transparent;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+select:hover{
+    background-color: black;
+    color: gold;
+}
+.btn-1{
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 25px;
+    /* padding-top: -20px; */
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.btn-1:hover{
+    background-color: black;
+    color: gold;
+}
+
+span{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+header h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;   
+}
+/* br{
+    padding-top: -8px;
+} */
+
+/* second div styling starts here */
+
+.div-1{
+    background-image: url("https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/77298federalist-pig-summer-specials-2024_web.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    /* padding-top: 50px; */
+    color: white;
+
+}
+.div-1 .black{
+    background-color: black;
+    opacity: 0.6;
+    height: 450px;
+    /* position: ; */
+}
+
+.div-1 h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 70px;
+    /* padding-bottom: 15px; */
+}
+
+.div-1 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.div-1 .sauce{
+    /* margin-top: -22%; */
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.btn-2{
+    background-color: transparent;
+    color: gold;
+    border: 2px solid gold;
+    padding: 8px 25px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: normal; 
+
+}
+.btn-2:hover{
+    background-color: black;
+    color: gold;
+}
+
+.div-2{
+    position: relative;
+    margin-top: 70px;
+}
+.specials{
+    position: absolute;
+    left: 13%;
+    
+   
+}
+.div-2 .specials h2{
+    padding-left: 13%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+}
+.div-2 .specials p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.club{
+    position: absolute;
+    left: 53%;
+}
+.div-2 .club h2{
+    padding-left: 17%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+}
+.div-2 .club p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.btn-3{
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 2px solid black;
+    padding: 8px 28px;
+    margin-top: 15px;
+    margin-left: 12%;
+
+}
+.btn-03{
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 2px solid black;
+    padding: 8px 28px;
+    margin-top: 15px;
+    margin-left: 19%;
+
+}
+.btn-3:hover{
+    background-color: black;
+    color: gold;
+}
+.btn-03:hover{
+    background-color: black;
+    color: gold;
+}
+
+/* div3 styling starts here */
+.div-3{
+    margin-top: 58%;
+    margin-bottom: 91.3%;
+    position: relative;
+}
+.menu{
+    position: absolute;
+    left: 13%;
+    text-align: center;
+}
+.menu h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+.para-1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.btn-4{
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid black;
+    padding: 8px 28px;
+    /* margin-top: 15px;
+    margin-left: 19%; */
+
+}
+.btn-4:hover{
+    background-color: black;
+    color: gold;
+}
+.menu-img{
+    position: absolute;
+    left: 50%;
+}
+
+/* div 4 styling starts here */
+.div-4{
+    /* margin-top: -100px; */
+    position: relative;
+    margin-bottom: 121%;
+}
+.catering-img{
+    position: absolute;
+}
+.catering{
+    position: absolute;
+    left: 60%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.catering p{
+    padding-bottom: 35px;
+    padding-top: 30px;
+}
+.catering h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.footer-1{
+    background-color: black;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+.preference{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.preference a{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.preference a:hover{
+    color: rgb(61, 59, 59);
+}
+
+.footer-2{
+    background-color: black;
+    color: gold;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+.footer-2 i{
+    font-size: 24px;
+    padding-left: 10px;
+    text-align: center;
+   
+}
+.footer-2 li a{
+    color: gold;
+    float: left;
+    
+}
+.footer-2 ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 40%;
+}
+.btn-5{
+   background-color: transparent;
+   color: gold;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   border: 3px solid gold;
+   padding: 6px 20px;
+}
+.btn-5:hover{
+    background-color: gold;
+    color: rgb(53, 52, 52);
+    align-items: center;
+}
+.bento{
+    color: gold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-small;
+    text-decoration: none;
+    padding-left: 49%;
+    
+
+}
+
+.bento:hover{
+    color: white;
+}
